@@ -27,6 +27,11 @@ echo '=> DESKTOP ENVIRONMENT';
 echo ' -- Setting up NAS';
 sudo mkdir -p /media/NAS
 sudo sh -c "echo '//192.168.1.176/NASData /media/NAS cifs user,uid=1000,rw,suid,credentials=/etc/credentials 0 0'" >> /etc/fstab
+
+sudo touch /etc/credentials
+sudo sh -c "echo 'username=XXXXXX'" >> /etc/credentials
+sudo sh -c "echo 'password=XXXXXX'" >> /etc/credentials
+sudo sh -c "echo 'domain=XXXXXX'" >> /etc/credentials
 mount -a
 
 # APPS
