@@ -1,4 +1,6 @@
-## DEVELOPMENT
+#!/bin/bash
+
+# DEVELOPMENT
 # Node.JS
 sudo apt-get install python-software-properties python g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
@@ -23,6 +25,7 @@ sudo apt-get install vlc
 sudo apt-get install docky
 sudo apt-get install synaptic
 sudo apt-get install unity-tweak-tool
+
 # CHROME
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
