@@ -35,7 +35,13 @@ sudo apt-get install vlc
 sudo apt-get install docky
 sudo apt-get install synaptic
 sudo apt-get install unity-tweak-tool
+sudo apt-get install git
 
 # CHROME
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 dpkg -i google-chrome-stable_current_amd64.deb
+
+# Sublime Text 2
+sudo add-apt-repository ppa:webupd8team/sublime-text-2;
+sudo apt-get update && sudo apt-get install sublime-text;
+
