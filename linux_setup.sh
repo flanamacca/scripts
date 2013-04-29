@@ -4,6 +4,9 @@ cd /tmp
 # DEVELOPMENT
 echo '=> DEVELOPMENT ENVIRONMENT';
 
+# SET TIMEZONE
+sudo dpkg-reconfigure tzdata
+
 # Node.JS
 echo ' -- Installing node.js';
 sudo apt-get install python-software-properties python g++ make
